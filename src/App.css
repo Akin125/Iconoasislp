@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+.image-placeholder {
+    transition: filter 3s ease-in-out;
+    filter: blur(5px);
+}
+
 .link{
     text-decoration: none;
     color: #61dafb;
@@ -119,7 +124,10 @@ body{
     font-family: Montserrat;
     padding-left: 41px;
 }
-
+/*.feature{*/
+/*    background-opacity: 50%;*/
+/*    background-image: url("https://img.fortawesome.com/1ce05b4b/hero-icon-bg.svg");*/
+/*}*/
 .ftcont {
     display: inline-flex;
     align-items: center;
@@ -146,6 +154,67 @@ hr{
 
 /*.feature{*/
 /*    background: rgba(204, 238, 247, 0.6);*/
+/*}*/
+
+.about {
+    /* background-color: #ebfafe; */
+    padding: 20px;
+}
+
+.spec1{
+    padding-bottom: 10px;
+    color: #240044;
+}
+cen{
+    text-align: center;
+}
+
+#diff{
+    background-color: white;
+    color: #787878;
+    padding: 10px;
+
+}
+.projectlink{
+    text-align: center;
+}
+
+.dd{
+    color: #61dafb;
+}
+.esc{
+    color:black ;
+}
+
+.esc i{
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.abttext{
+    background-color: #240044;
+    border-radius: 5px;
+    /*border: 1px solid #240044;*/
+    text-align: center;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.pad{
+    padding: 30px;
+}
+.handles{
+    padding-top: 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*.handles i{*/
+/*    padding-right: 15px;*/
 /*}*/
 
 @media  (min-width: 425px) {
@@ -236,6 +305,17 @@ hr{
     .ftimg img {
         height: 326px;
     }
+
+    .devaccount {
+        display: inline-flex;
+        width: 100%;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .handles{
+        padding-top: 40px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -287,6 +367,10 @@ hr{
     .ftimg img {
         height: 450px;
     }
+
+    .handles{
+        padding-top: 50px;
+    }
 }
 
 @media (min-width: 1440px){
@@ -324,5 +408,9 @@ hr{
 
     .ftextcont {
         font-size: 45px;
+    }
+
+    .handles{
+        padding-top: 60px;
     }
 }
