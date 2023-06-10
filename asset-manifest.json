@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/iconoasislp/static/css/main.ad429f3e.css",
-    "main.js": "/iconoasislp/static/js/main.ea429648.js",
+    "main.css": "/iconoasislp/static/css/main.563ae9a3.css",
+    "main.js": "/iconoasislp/static/js/main.5ae7a61b.js",
     "static/js/787.5bc713ec.chunk.js": "/iconoasislp/static/js/787.5bc713ec.chunk.js",
     "static/media/search.png": "/iconoasislp/static/media/search.21965a9d542b16197a69.png",
     "static/media/dowload1.png": "/iconoasislp/static/media/dowload1.7570be6369b4f349f35c.png",
     "static/media/inistate.png": "/iconoasislp/static/media/inistate.10c7d66b66955ff93017.png",
     "static/media/login.png": "/iconoasislp/static/media/login.520421ecd990bee3d0fd.png",
     "index.html": "/iconoasislp/index.html",
-    "main.ad429f3e.css.map": "/iconoasislp/static/css/main.ad429f3e.css.map",
-    "main.ea429648.js.map": "/iconoasislp/static/js/main.ea429648.js.map",
+    "main.563ae9a3.css.map": "/iconoasislp/static/css/main.563ae9a3.css.map",
+    "main.5ae7a61b.js.map": "/iconoasislp/static/js/main.5ae7a61b.js.map",
     "787.5bc713ec.chunk.js.map": "/iconoasislp/static/js/787.5bc713ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad429f3e.css",
-    "static/js/main.ea429648.js"
+    "static/css/main.563ae9a3.css",
+    "static/js/main.5ae7a61b.js"
   ]
 }
